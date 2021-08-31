@@ -349,4 +349,21 @@
     // expected output: "resolved"
 //   }
   
-  asyncCall();
+//   asyncCall();
+
+
+// ///////////////////////////////////////ECMAScript 2018 /////////////////////////////////
+
+// Asynchronous Iteration
+// Promise Finally
+// Object Rest Properties
+// New RegExp Features
+
+// rest object
+
+// let {x,y,z,...a} = {x:1,y:2,z:0,a:32,d:53,e:09,cs:08}
+// console.log(x);
+// console.log(y);
+// console.log(z);
+// console.log(a);
+
