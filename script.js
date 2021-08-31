@@ -305,8 +305,48 @@
 
 
 
+///////////////////////////////////////// Object.entries and object.values are same but difference is it only give values not key values
+
+
+// const person = {
+//     name:'aqib',
+//     age:20,
+//     sex:"male"
+// }
+// let text = "";
+// for (let [info,value] of Object.entries(person)){
+    //     text += `${info}:${value}; `
+    // }
+    // let rest = text;
+    
+    // console.log(rest);
+    // console.log(result);
+    
+    // let text = "";
+    // for (let value of Object.values(person)){
+    //     text += `${value}; `
+    // }
+    // console.log(text);
 // Object
 
 
 
-// console.log(result);
+// /////////////////////////// async and await fun in ecamascript-2017
+
+// function resolveAfter2Seconds() {
+//     return new Promise(resolve => {
+//       setTimeout(() => {
+//         resolve('resolved');
+//       }, 2000);
+//     });
+//   }
+  
+//   async function asyncCall() {
+//    console.log('calling');
+//     const result = await resolveAfter2Seconds();
+//     console.log(result);
+     
+    // expected output: "resolved"
+//   }
+  
+  asyncCall();
